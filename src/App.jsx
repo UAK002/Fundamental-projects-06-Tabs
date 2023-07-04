@@ -30,7 +30,7 @@ const App = () => {
   }
 
   return (
-    <section className="job-center">
+    <section className="jobs-center">
       {/* Button container */}
       {/* Job Info */}
       <JobInfo jobs={jobs} />
