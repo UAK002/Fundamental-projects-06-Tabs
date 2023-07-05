@@ -6,7 +6,7 @@ const Duties = ({ duties }) => {
     <div>
       {duties.map((duty, index) => {
         const id = uuidv4();
-        console.log(id);
+        // console.log(id);
         return (
           // <div className="job-desc" key={index}>
           <div className="job-desc" key={id}>
